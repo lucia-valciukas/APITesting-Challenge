@@ -10,7 +10,7 @@
 2. Abrir la consola y correr el comando "pytest"
 
 
-## Se buscó mostrar el progreso en tests tanto en python (con framework pytest) como en C# cubriendo casos del estilo:
+## Se buscó mostrar el progreso en tests tanto en python (con framework pytest) cubriendo casos del estilo:
 * Chequear responses en un json con distintas estructuras (en hijos, en listas, etc.)
 * Verificar exceptions
 * Validación de status codes
