@@ -1,10 +1,19 @@
 # APITesting-Challenge
 :D My first steps into API testing :D
-## Proyecto de API Testing
-Este proyecto realiza pruebas automáticas sobre dos APIs públicas usando Pytest.
 
-¿Qué significa "integrar una API"?
-## "Integrar una API" en un proyecto de testing significa:
-1. Definir la URL base y la configuración necesaria (headers, autenticación, etc.).
-2. Hacer peticiones HTTP reales a esa API desde tus pruebas (GET, POST, etc.).
-3. Verificar que las respuestas sean correctas (status, contenido, estructura).
+## Este proyecto realiza pruebas automáticas sobre APIs públicas : 
+* PokeAPI
+* StarWars API (SWAPI)
+
+## Para correr tests en el proyecto de python:
+1. Pararse en la carpeta api_testing_python
+2. Abrir la consola y correr el comando "pytest"
+
+
+## Se buscó mostrar el progreso en tests tanto en python (con framework pytest) como en C# cubriendo casos del estilo:
+* Chequear responses en un json con distintas estructuras (en hijos, en listas, etc.)
+* Verificar exceptions
+* Validación de status codes
+* Pruebas con sets de datos de al menos 5 entradas dinámicas // no sé cómo hacerlo xd
+* Pruebas de integración entre APIs // no sé hacerlo xd
+* Validación de esquemas // ni idea xd
